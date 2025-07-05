@@ -1,6 +1,6 @@
-using System.ComponentModel.DataAnnotations;
 using UnityEngine;
-namespace PlayerController
+using ValidationAttributes;
+namespace BetterPlayerController
 {
     public class PlayerController : MonoBehaviour
     {

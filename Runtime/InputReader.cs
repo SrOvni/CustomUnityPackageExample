@@ -1,13 +1,13 @@
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
-using static PlayerController.PlayerInputActions;
+using static BetterPlayerController.PlayerInputActions;
 
 public interface IInputReader {
     Vector2 Direction { get; }
     void EnablePlayerActions();
 }
-namespace PlayerController
+namespace BetterPlayerController
 {
     [CreateAssetMenu(fileName = "InputReader", menuName = "InputReader")]
     public class InputReader : ScriptableObject, IPlayerActions, IInputReader

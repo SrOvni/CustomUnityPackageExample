@@ -1,8 +1,9 @@
 {
     "name": "PlayerController",
-    "rootNamespace": "PlayerController",
+    "rootNamespace": "BetterPlayerController",
     "references": [
-        "GUID:75469ad4d38634e559750d17036d5f7c"
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:6719e99e49235eb47b4444bab1bbb906"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
